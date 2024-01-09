@@ -1,12 +1,13 @@
 {
  "information_t": {
   "approximate_entropy": {
+   "complexity": "linear",
    "description": "",
+   "function": "approximate_entropy",
    "parameters": {
     "metric": "chebyshev",
     "order": 2
    },
-   "function": "approximate_entropy",
    "use": "yes"
   },
   "embed_signal": {
@@ -30,10 +31,10 @@
   },
   "sample_entropy": {
    "description": "Sample Entropy.",
-   "function": "sample_entropy",
    "parameters": {
     "order": 2
    },
+   "function": "sample_entropy",
    "use": "yes"
   },
   "spectral_entropy": {
